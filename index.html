@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Age calculator app</title>
+    <link rel="stylesheet" href="style.css">
+    <script defer src="./script.js"></script>
+</head>
+<body>
+    <main>
+        <form action="" class="birthdate">
+            <div class="day-of-birth-div">
+                <label for="day-of-birth" class="label-day">Day</label>
+                <input id="day-of-birth" type="number" placeholder="DD" >
+                <p class="day-of-birth-p">Must be a valid day</p>
+            </div>
+            <div class="month-of-birth-div">
+                <label for="month-of-birth" class="label-month">Month</label>
+                <input id="month-of-birth" type="number" placeholder="MM">
+                <p class="month-of-birth-p">Must be a valid month</p>
+            </div>
+            <div class="year-of-birth-div">
+                <label for="year-of-birth" class="label-year">Year</label>
+                <input id="year-of-birth" type="number" placeholder="YYYY" >
+                <p class="year-of-birth-p">Must be in the past</p>
+            </div>
+            <div class="line">
+                <div class="round"><img src="./icon-arrow.svg" alt="arrow"></div>
+                <input type="submit" value="" class="submit">
+                
+            </div>
+        </form>
+        <div class="age">
+            <div class="age-year">
+                <p class="a one-one"></p>
+                <p class="a one-two"></p>
+                <p class="age-year-p">years</p>
+            </div>
+            <div class="age-month">
+                <p class="a two-one"></p>
+                <p class="a two-two "></p>
+                <p class="age-month-p">months</p>
+            </div>
+            <div class="age-day">
+                <p class="a three-one"></p>
+                <p class="a three-two"></p>
+                <p class="age-day-p">days</p>
+            </div>
+        </div>
+    </main>
+</body>
+</html>
